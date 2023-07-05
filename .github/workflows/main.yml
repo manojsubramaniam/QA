@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: self-hosted 
     env:
       SERVER_IP: ${{ secrets.SERVER_IP }}
       SERVER_USERNAME: ${{ secrets.REMOTE_USERNAME }}
